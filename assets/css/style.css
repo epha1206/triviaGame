@@ -34,3 +34,11 @@ header{
 	color: white;
     padding: 10px;
 }
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
