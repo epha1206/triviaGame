@@ -48,3 +48,15 @@ $('#startOverBtn').on('click', function(){
     $(this).hide();
     newGame();
 });
+
+function newGame(){
+    $('#finalMessage').empty();
+    $('#correctAnswers').empty();
+    $('#incorrectAnswers').empyty();
+    $('#unanswered').empty();
+    currentQuestion = 0;
+    correctAnswer = 0;
+    incorrectAnswer = 0;
+    unanswered = 0;
+    newQuestion();
+}
